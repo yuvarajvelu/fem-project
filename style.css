@@ -49,10 +49,10 @@ body{
 }
 
 .cal-buttons button:last-child:hover{
-    background-color: yellow;
-}
-.cal-buttons button:last-child :active{
     background-color: lime;
+}
+.cal-buttons button :last-child:active{
+    background-color: darkgreen;
 }
 .quarter{
    width: 24.5%;
