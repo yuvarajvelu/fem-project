@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.calc{
+    width: 400px;
+    background-color: black;
+}
+.display{
+    font-size: 40px;
+    
+    text-align: right;
+    font-family: monospace;
+    font-weight: normal;
+    color: white;
+    padding: 20px 5px;
+}
+.cal-buttons{
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2px;  
+   
+    border: 0px;
+    border-radius: opx;
+   
+}
+.cal-buttons button{
+    font-size: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2px;
+}
+.cal-buttons :hover{
+    background-color: grey;
+}
+.cal-buttons :active{
+    background-color: rgb(53, 52, 54);
+}
+.cal-buttons :last-child{
+    background-color: yellowgreen;
+    margin: 0px;
+    color: white;
+}
+
+.cal-buttons button:last-child:hover{
+    background-color: yellow;
+}
+.cal-buttons button:last-child :active{
+    background-color: lime;
+}
+.quarter{
+   width: 24.5%;
+}
+.half{
+    width:49.7%
+}
+.three-quarter{
+   width: 74.75%;
+}
