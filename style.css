@@ -24,11 +24,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 2px;  
-   
-    border: 0px;
-    border-radius: opx;
-   
+    margin-bottom: 2px; 
 }
 .cal-buttons button{
     font-size: 40px;
@@ -37,6 +33,8 @@ body{
     align-items: center;
     justify-content: center;
     margin-right: 2px;
+    border: 0px;
+    border-radius: 0px;
 }
 .cal-buttons :hover{
     background-color: grey;
